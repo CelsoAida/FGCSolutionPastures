@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: abeezee, sans-serif;
+	font-size: 14px;
+}
+
+html, body {
+	max-width: 100vw;
+	max-height: 100vh;
+	width: 100vw;
+	height: 100vh;
+}
+
+.background {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../_images/bgImg.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 40px 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: scroll;
+}
+
+.wrapper {
+	width: 960px;
+	height: auto;
+	background-color: #f0f0f0;
+	margin: 0 auto 60px auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+
+/*== header section styles ==*/
+.header {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.logo-social {
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	background-color: #fff;
+}
+
+.logo-holder {
+	float: left;
+	margin: 10px 40px;
+	width: 250px;
+	height: 80px;
+}
+
+.logo-holder img {
+	/*== church logo==*/
+	width: 100%;
+	height: 100%;
+}
+
+
+.social-media {
+	float: right;
+	margin: 20px 60px;
+}
+
+.social-media a img {
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+}
+
+/*== Navigation Bar Styles ==*/
+.navbar {
+	width: 100%;
+	height: 40px;
+	background-color: #164053;
+}
+
+.navbar ul {
+	width: 720px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.navbar ul li {
+	float: left;
+	width: 120px;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a {
+	color: #f3e1b0;
+	display: block;
+}
+
+.navbar ul li a:visited {
+	color: #f3e1b0;
+}
+
+.navbar ul li:hover {
+	background-color: rgba(0,0,0,0.1);
+	letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 960px)
+{
+.background {
+	padding: 0;
+}
+}
+
+@media only screen and (max-width: 800px)
+{
+.background {
+	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: auto;
+	background-color: #f0f0f0;
+	margin: 0 auto;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.7);
+}
+}
+
+@media only screen and (max-width: 700px)
+{
+/*== Navigation Bar Styles ==*/
+.navbar {
+	width: 100%;
+	height: auto;
+	background-color: #164053;
+}
+
+.navbar ul {
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.navbar ul li {
+	float: none;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	letter-spacing: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li:nth-child(even) {
+	background-color: #103140;
+}
+}

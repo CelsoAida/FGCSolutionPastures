@@ -1,0 +1,263 @@
+.main {
+	width: 100%;
+	height: auto;
+}
+
+/*== Slider Styles*/
+.slider-holder {
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slider {
+	position: relative;
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+}
+
+.slider img {
+	max-width: 960px;
+	max-height: 400px;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.slider-btn img {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.slider-btn img:nth-child(1) {
+	left: 20px;
+}
+
+.slider-btn img:nth-child(2) {
+	right: 20px;
+}
+
+/*== Countdown Timer Styles*/
+.countdown-timer {
+	width: 100%;
+	height: auto;
+	background-color: #292929;
+}
+
+.grid-12 {
+	width: 940px;
+	margin: 0 10px;
+	display: grid;
+	grid-template-columns: repeat(12, 60px);
+	grid-gap: 20px;
+}
+
+.countdown-timer > h1 {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #f0f0f0;
+	font-size: 30px;
+	padding: 20px 0;
+}
+
+.details {
+	margin: 20px 0;
+}
+
+.details div {
+	height: auto;
+}
+
+.details div:nth-child(1) {
+	grid-column: 1 / span 4;
+}
+
+.details div:nth-child(2) {
+	grid-column: 5 / span 4;
+}
+
+.details div:nth-child(3) {
+	grid-column: 9 / span 4;
+}
+
+.details div img {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.details div p {
+	width: 80%;
+	height: auto;
+	margin: 10px auto;
+	color: #c4b173;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.details div p sup {
+	font-size: 10px;
+}
+
+.grid-4 {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+}
+
+.countdown-holder {
+	width: 100%;
+	height: auto;
+	background-color: rgba(0,0,0,0.4);
+	padding: 20px 0;
+}
+
+.countdown {
+	width: 240px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.countdown div {
+	height: auto;
+}
+
+.countdown div:nth-child(1) {
+	grid-column: 1 / span 1;
+}
+
+.countdown div:nth-child(2) {
+	grid-column: 2 / span 1;
+}
+
+.countdown div:nth-child(3) {
+	grid-column: 3 / span 1;
+}
+
+.countdown div:nth-child(4) {
+	grid-column: 4 / span 1;
+}
+
+.countdown div p {
+	font-size: 30px;
+	font-weight: bolder;
+	color: #c4b173;
+	text-align: center;
+}
+
+.countdown div p span {
+	display: block;
+}
+
+
+/*== Message from founder Styles ==*/
+.msg-frm-fndr {
+	width: 100%;
+	height: 350px;
+	padding: 60px 0;
+}
+
+.img-holder {
+	float: left;
+	width: 250px;
+	height: 350px;
+	overflow: hidden;
+	margin: 0 60px;
+}
+
+
+.img-holder img {
+	max-width: 300px;
+	max-height: 400px;
+	width: 100%;
+	height: 100%;
+}
+
+.msg-frm-fndr h1, .msg-frm-fndr p {
+	width: 490px;
+	float: left;
+	font-size: 40px;
+	color: #2c2a26;
+	margin: 0 60px 0 0;
+}
+
+.msg-frm-fndr p {
+	font-size: 14px;
+	line-height: 30px;
+	margin: 30px 60px 60px 0;
+}
+
+.msg-frm-fndr a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.msg-frm-fndr > a:nth-child(4) {
+	background-color: #a68b44;
+	color: #22201b;
+}
+
+.msg-frm-fndr > a:nth-child(5) {
+	background-color: #17405d;
+	color: #f2f2f2;
+	margin: 0 0 0 20px;
+}
+
+
+/*== pastors info slider styles ==*/
+.pastors-slider {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-color: #786532;
+}
+
+.ps-slider-holder {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+}
+
+.pastors {
+	position: absolute;
+	top: 0;
+	float: left;
+}
+
+.ps-img-holder {
+	float: left;
+	width: 200px;
+	height: 200px;
+	box-sizing: border-box;
+	border: 5px solid #f0f0f0;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.7);
+	overflow: hidden;
+	margin: 60px 60px 0px 60px;
+}
+
+.ps-img-holder img {
+	max-width: 200px;
+	max-height: 200px;
+	height: 100%;
+	width: 100%;
+}
